@@ -1,0 +1,15 @@
+{
+  "name": "react_api",
+  "version": "1.0.0",
+  "description": "the API used to server the front-end React app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch db.json --port 5001"
+  },
+  "author": "John El Basha",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
